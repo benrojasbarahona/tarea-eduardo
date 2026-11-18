@@ -1,26 +1,51 @@
+"""Agrega el sufijo -1 al código impreso en cada imagen de producto.
+
+Uso:  python3 scripts/agregar_sufijo.py 16-11-2026 [índices...]
+Lee  <fecha>/input-<fecha>/ y escribe <fecha>/output-<fecha>/CodigoProducto-1.jpg,
+siempre de 800x800 exactos (la imagen se escala y se centra sobre fondo blanco).
+La ubicación del código en cada imagen está en scripts/boxes-<fecha>.json.
+"""
 import os, sys, json, math
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = '/home/user/tarea-eduardo/17-11-2026/input-17-11-2026'
-DST = '/home/user/tarea-eduardo/17-11-2026/output-17-11-2026'
-CHK = os.path.join(HERE, 'check')  # recortes de revisión (no se versionan)
+ROOT = os.path.dirname(HERE)
+DATE = sys.argv[1] if len(sys.argv) > 1 else '17-11-2026'
+SRC = os.path.join(ROOT, DATE, f'input-{DATE}')
+DST = os.path.join(ROOT, DATE, f'output-{DATE}')
+CHK = os.path.join(HERE, 'check', DATE)  # recortes de revisión (no se versionan)
 os.makedirs(DST, exist_ok=True); os.makedirs(CHK, exist_ok=True)
+SIZE = 800  # tamaño final exacto (cuadrado)
 
-BOXES = {int(k): v for k, v in json.load(open(os.path.join(HERE, 'boxes.json'))).items()}
-CODES = {48: 'MAAS387'}  # override placeholder
-for k, v in BOXES.items():
-    v['code'] = CODES.get(k, v['code'])
-BOXES[20]['tight'] = [737, 1425, 1008, 1462]
-BOXES[38]['tight'] = [39, 1446, 491, 1496]
+BOXES = {int(k): v for k, v in json.load(open(os.path.join(HERE, f'boxes-{DATE}.json'))).items()}
 
 SANS = '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf'
 INTER = '/usr/share/fonts/opentype/inter/Inter-Regular.otf'
 SERIF = '/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf'
-FONT = {46: INTER, 47: INTER, 48: INTER, 21: SERIF}
-# images whose code has no '1': borrow the '1' glyph from a sibling with identical typography
-DONOR = {13: 12, 14: 15, 19: 17, 26: 27, 31: 32, 42: 43, 45: 44, 49: 11}
+
+# Ajustes manuales por fecha
+FONT, DONOR, LABEL_FIX, SHIFT = {}, {}, {}, {}
+STEM_HYPHEN = False  # True: el guion se dibuja con el grosor del trazo del '1' de la imagen
+if DATE == '17-11-2026':
+    BOXES[48]['code'] = 'MAAS387'
+    BOXES[20]['tight'] = [737, 1425, 1008, 1462]
+    BOXES[38]['tight'] = [39, 1446, 491, 1496]
+    FONT = {46: INTER, 47: INTER, 48: INTER, 21: SERIF}
+    # códigos sin '1': se toma el '1' de una imagen gemela con la misma tipografía
+    DONOR = {13: 12, 14: 15, 19: 17, 26: 27, 31: 32, 42: 43, 45: 44, 49: 11}
+    # Kit Pistola (26) dice 'Cóg.': se reemplaza por 'Cód.' de la imagen gemela 27
+    LABEL_FIX = {26: (27, (348, 428, 404, 455), (354, 427))}
+elif DATE == '16-11-2026':
+    BOXES[2]['tight'] = [5, 225, 70, 232]
+    BOXES[21]['tight'] = [5, 220, 71, 228]
+    BOXES[24]['tight'] = [174, 231, 231, 237]
+    # Basurero 65 lt: el código toca el basurero negro; se baja el bloque de texto 5 px
+    SHIFT = {6: [((4, 225, 66, 233), (0, 5)), ((4, 215, 24, 223), (0, 5))]}  # de abajo hacia arriba
+    BOXES[6]['tight'] = [5, 231, 64, 237]
+    DONOR = {0: 42, 2: 1, 3: 4, 6: 22, 8: 11, 14: 13, 15: 12, 17: 12, 19: 20, 28: 31, 29: 31,
+             35: 36, 39: 44, 40: 44, 41: 44, 43: 44, 46: 4, 47: 4}
+    STEM_HYPHEN = True
 SS = 8  # supersampling for font rendering
 
 
@@ -162,12 +187,40 @@ def composite(a, alpha, x, y, color):
     a[ya:yb, xa:xb] = a[ya:yb, xa:xb] * (1 - al) + color * al
 
 
+def stem_hyphen(hy, one_alpha):
+    """Redraw the hyphen as a bar as thick as the stem of the image's own '1' (keeps the
+    font's hyphen length and vertical centre), so it matches the weight of tiny/bold text."""
+    al, x, y = hy
+    rows = np.nonzero((al > 0.25).any(axis=1))[0]; cols = np.nonzero((al > 0.25).any(axis=0))[0]
+    if len(rows) == 0: return hy
+    w_al = al.sum(axis=0); x0 = cols[0]; x1 = cols[-1] + 1
+    cy = (al.sum(axis=1) * np.arange(al.shape[0])).sum() / al.sum() + 0.5
+    h = one_alpha.shape[0]
+    mid = one_alpha[int(h * 0.35):int(h * 0.85)]
+    t = float(np.median(mid.sum(axis=1)))  # stem width in px
+    t = max(t, 1.0)
+    # length: keep the font's coverage-weighted width
+    L = al.sum() / max(al.sum(axis=0).max(), 1e-6)
+    L = max(L, x1 - x0 - 0.5)
+    k = 16
+    H, W = al.shape
+    big = Image.new('L', (W * k, H * k), 0)
+    cx = (x0 + x1) / 2
+    ImageDraw.Draw(big).rectangle([round((cx - L / 2) * k), round((cy - t / 2) * k),
+                                   round((cx + L / 2) * k) - 1, round((cy + t / 2) * k) - 1], fill=255)
+    new = np.asarray(big.resize((W, H), Image.BOX)).astype(float) / 255
+    return new, x, y
+
+
 def fix_label(i, im):
-    """Kit Pistola (26) dice 'Cóg.' por error: se reemplaza por 'Cód.' copiado de la imagen
-    gemela 27 (misma tipografía, tamaño y disposición; desplazamiento +6, -1 px)."""
-    if i == 26:
-        src = load(BOXES[27]['file'])
-        im.paste(src.crop((348, 428, 404, 455)), (354, 427))
+    """Corrige una etiqueta mal escrita copiando la correcta desde una imagen gemela."""
+    if i in LABEL_FIX:
+        j, box, at = LABEL_FIX[i]
+        im.paste(load(BOXES[j]['file']).crop(box), at)
+    for box, (dx, dy) in SHIFT.get(i, []):
+        part = im.crop(box)
+        im.paste((255, 255, 255), box)
+        im.paste(part, (box[0] + dx, box[1] + dy))
     return im
 
 
@@ -206,21 +259,25 @@ def process(i):
         one_alpha, ox, oy = pl
         cols = np.nonzero((one_alpha > 0.5).any(axis=0))[0]
         one_right = ox + cols[-1] + 1
-    # does it fit? keep a small right margin
+    # does it fit? keep a small right margin; if not, extend the canvas to the right with white
     m = max(4, round(0.02 * max(w, h)))
     pad = max(0, one_right - (w - m))
-    padl = padt = padb = 0
     if pad:
-        if w == h: padt = pad // 2; padb = pad - padt
-        big = np.full((h + padt + padb, w + pad, 3), 255.0)
-        big[padt:padt + h, :w] = a; a = big
+        big = np.full((h, w + pad, 3), 255.0); big[:, :w] = a; a = big
     color = info['color']
-    composite(a, hy[0], hy[1], hy[2] + padt, color)
-    composite(a, one_alpha, ox, oy + padt, color)
-    out = Image.fromarray(np.clip(np.round(a), 0, 255).astype(np.uint8))
-    W, H = out.size
-    fct = max(1.0, 800 / min(W, H))
-    if fct > 1: out = out.resize((round(W * fct), round(H * fct)), Image.LANCZOS)
+    if STEM_HYPHEN and g is not None:
+        hy = stem_hyphen(hy, g['alpha'])
+    composite(a, hy[0], hy[1], hy[2], color)
+    composite(a, one_alpha, ox, oy, color)
+    img = Image.fromarray(np.clip(np.round(a), 0, 255).astype(np.uint8))
+    # final: exactly SIZE x SIZE, image scaled to fit and centred on white
+    W, H = img.size
+    s = SIZE / max(W, H)
+    nw, nh = min(SIZE, round(W * s)), min(SIZE, round(H * s))
+    img = img.resize((nw, nh), Image.LANCZOS)
+    out = Image.new('RGB', (SIZE, SIZE), (255, 255, 255))
+    offx, offy = (SIZE - nw) // 2, (SIZE - nh) // 2
+    out.paste(img, (offx, offy))
     name = code.replace(' ', '') + '-1.jpg'
     path = os.path.join(DST, name)
     q = 95
@@ -229,15 +286,14 @@ def process(i):
         if os.path.getsize(path) <= 3 * 1024 * 1024 or q <= 60: break
         q -= 5
     # check crop (in output coords)
-    s = out.size[0] / (w + pad)
-    cx0 = int((tb[0] - capH * 2) * s); cy0 = int((tb[1] + padt - capH * 2.2) * s)
-    cx1 = int((one_right + capH * 1.5) * s); cy1 = int((tb[3] + padt + capH * 1.2) * s)
-    out.crop((max(0, cx0), max(0, cy0), min(out.size[0], cx1), min(out.size[1], cy1))).save(os.path.join(CHK, f'{i:02d}.png'))
+    cx0 = offx + int((tb[0] - capH * 2) * s); cy0 = offy + int((tb[1] - capH * 2.2) * s)
+    cx1 = offx + int((one_right + capH * 1.5) * s); cy1 = offy + int((tb[3] + capH * 1.2) * s)
+    out.crop((max(0, cx0), max(0, cy0), min(SIZE, cx1), min(SIZE, cy1))).save(os.path.join(CHK, f'{i:02d}.png'))
     return dict(i=i, file=f, out=name, size=out.size, kb=os.path.getsize(path) // 1024, seg_ok=info['ok'],
                 nseg=len(info['segs']), one=one_src, pad=pad, color=[int(c) for c in color], sx=round(lay['sx'], 3))
 
 
 if __name__ == '__main__':
-    ids = [int(x) for x in sys.argv[1:]] or sorted(BOXES)
+    ids = [int(x) for x in sys.argv[2:]] or sorted(BOXES)
     for i in ids:
         print(process(i))
