@@ -1,0 +1,1002 @@
+{
+ "0": {
+  "file": "Aspersor Impulso T.L..JPG",
+  "code": "TAJA021910",
+  "box": [
+   330,
+   442,
+   466,
+   471
+  ],
+  "tight": [
+   339,
+   448,
+   455,
+   464
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "1": {
+  "file": "Aspersor Impulso con Pincho T.L..JPG",
+  "code": "TAJA021811",
+  "box": [
+   343,
+   424,
+   481,
+   455
+  ],
+  "tight": [
+   352,
+   430,
+   465,
+   446
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "2": {
+  "file": "Aspersor Oscilante 17 L.JPG",
+  "code": "TAJA021316",
+  "box": [
+   330,
+   433,
+   466,
+   464
+  ],
+  "tight": [
+   338,
+   439,
+   454,
+   455
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "3": {
+  "file": "Aspersor Rotativo con Pincho.JPG",
+  "code": "TAJA020517",
+  "box": [
+   330,
+   437,
+   466,
+   468
+  ],
+  "tight": [
+   339,
+   443,
+   455,
+   459
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "4": {
+  "file": "Aspersor con Base Rotativo.JPG",
+  "code": "TAJA020616",
+  "box": [
+   32,
+   429,
+   169,
+   460
+  ],
+  "tight": [
+   41,
+   435,
+   156,
+   451
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "5": {
+  "file": "Aspersor con Base Sectorial.JPG",
+  "code": "TAJA020210",
+  "box": [
+   28,
+   429,
+   163,
+   460
+  ],
+  "tight": [
+   36,
+   436,
+   152,
+   452
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "6": {
+  "file": "Aspersor sectorial con Pincho.JPG",
+  "code": "TAJA020111",
+  "box": [
+   323,
+   429,
+   456,
+   460
+  ],
+  "tight": [
+   330,
+   435,
+   443,
+   451
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "7": {
+  "file": "Balde ERscurridor Spiderman  13 lt.JPG",
+  "code": "TAAS1235706",
+  "box": [
+   8,
+   439,
+   159,
+   470
+  ],
+  "tight": [
+   15,
+   446,
+   149,
+   461
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "8": {
+  "file": "Balde Escurridor Tatay Ecohome 12 lt.JPG",
+  "code": "TAAS1221273",
+  "box": [
+   5,
+   448,
+   156,
+   479
+  ],
+  "tight": [
+   13,
+   454,
+   146,
+   470
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "9": {
+  "file": "Chaira Lisa 12 pulg.PNG",
+  "code": "SIJA812172",
+  "box": [
+   1003,
+   770,
+   1345,
+   848
+  ],
+  "tight": [
+   1028,
+   788,
+   1319,
+   829
+  ],
+  "size": [
+   1536,
+   1024
+  ]
+ },
+ "10": {
+  "file": "Chaira estriada 12 pulg.PNG",
+  "code": "SIJA812296",
+  "box": [
+   1003,
+   770,
+   1345,
+   848
+  ],
+  "tight": [
+   1028,
+   788,
+   1320,
+   829
+  ],
+  "size": [
+   1536,
+   1024
+  ]
+ },
+ "11": {
+  "file": "Colgador Buenos Aires.JPG",
+  "code": "MBDE9816",
+  "box": [
+   198,
+   258,
+   279,
+   278
+  ],
+  "tight": [
+   204,
+   262,
+   272,
+   272
+  ],
+  "size": [
+   300,
+   300
+  ]
+ },
+ "12": {
+  "file": "Conector R\u00e1pido Premium 12-58.JPG",
+  "code": "TAJA201428",
+  "box": [
+   345,
+   450,
+   478,
+   480
+  ],
+  "tight": [
+   352,
+   455,
+   468,
+   471
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "13": {
+  "file": "Conservador Alimentos 4,7.JPG",
+  "code": "TAME43909",
+  "box": [
+   347,
+   445,
+   478,
+   476
+  ],
+  "tight": [
+   354,
+   451,
+   468,
+   467
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "14": {
+  "file": "Cuchillo Acero Inox. 6 pulg.JPG",
+  "code": "SIJA 846757",
+  "box": [
+   674,
+   1396,
+   1021,
+   1471
+  ],
+  "tight": [
+   691,
+   1410,
+   995,
+   1451
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "15": {
+  "file": "Cuchillo Acero Inox. 7 pulg.JPG",
+  "code": "SIJA 851486",
+  "box": [
+   677,
+   1396,
+   1021,
+   1473
+  ],
+  "tight": [
+   691,
+   1410,
+   995,
+   1451
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "16": {
+  "file": "Cuchillo Acero Inox. 8 pulg.JPG",
+  "code": "SIJA 846031",
+  "box": [
+   677,
+   1396,
+   1015,
+   1473
+  ],
+  "tight": [
+   691,
+   1410,
+   987,
+   1451
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "17": {
+  "file": "Cuchillo Carnicer\u00eda 10 pulg.PNG",
+  "code": "SIJA 867661",
+  "box": [
+   462,
+   1876,
+   776,
+   1957
+  ],
+  "tight": [
+   479,
+   1895,
+   754,
+   1933
+  ],
+  "size": [
+   776,
+   2025
+  ]
+ },
+ "18": {
+  "file": "Cuchillo Carnicer\u00eda 6 pulg.PNG",
+  "code": "SIJA867364",
+  "box": [
+   658,
+   1387,
+   993,
+   1462
+  ],
+  "tight": [
+   676,
+   1401,
+   968,
+   1442
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "19": {
+  "file": "Cuchillo Carnicer\u00eda 8 pulg.PNG",
+  "code": "SIJA 867586",
+  "box": [
+   462,
+   1873,
+   776,
+   1950
+  ],
+  "tight": [
+   479,
+   1895,
+   762,
+   1933
+  ],
+  "size": [
+   776,
+   2025
+  ]
+ },
+ "20": {
+  "file": "Cuchillo Cocina legumbres.PNG",
+  "code": "SIJA 805809",
+  "box": [
+   729,
+   1409,
+   1024,
+   1476
+  ],
+  "tight": [
+   729,
+   1409,
+   1008,
+   1476
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "21": {
+  "file": "Embudo 1042041.PNG",
+  "code": "1042041",
+  "box": [
+   287,
+   744,
+   480,
+   809
+  ],
+  "tight": [
+   292,
+   757,
+   461,
+   797
+  ],
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "22": {
+  "file": "Escobilla WC Tatay.JPG",
+  "code": "TAAS1431412",
+  "box": [
+   340,
+   437,
+   490,
+   468
+  ],
+  "tight": [
+   347,
+   443,
+   480,
+   459
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "23": {
+  "file": "Juego Cubiertos 25 piezas.JPG",
+  "code": "SIJA800794",
+  "box": [
+   27,
+   1412,
+   324,
+   1484
+  ],
+  "tight": [
+   43,
+   1429,
+   302,
+   1465
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "24": {
+  "file": "Juego Cuchiller\u00eda 26 piezas.JPG",
+  "code": "SIJA800804",
+  "box": [
+   444,
+   65,
+   705,
+   121
+  ],
+  "tight": [
+   456,
+   76,
+   690,
+   109
+  ],
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "25": {
+  "file": "Kit Boquilla stop 2 piezas.JPG",
+  "code": "TAJA007211",
+  "box": [
+   1,
+   443,
+   133,
+   474
+  ],
+  "tight": [
+   9,
+   449,
+   121,
+   465
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "26": {
+  "file": "Kit Pistola 2Pos 4 piezas.JPG",
+  "code": "TAJA200858",
+  "box": [
+   351,
+   453,
+   484,
+   484
+  ],
+  "tight": [
+   358,
+   459,
+   474,
+   475
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "27": {
+  "file": "Kit de FRiego Completo 4 Piezas.JPG.~tmp",
+  "code": "TAJA007013",
+  "box": [
+   345,
+   454,
+   478,
+   485
+  ],
+  "tight": [
+   352,
+   460,
+   468,
+   476
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "28": {
+  "file": "Lavarropa 15 litros.JPG",
+  "code": "TAOR1241158",
+  "box": [
+   18,
+   729,
+   362,
+   796
+  ],
+  "tight": [
+   35,
+   744,
+   340,
+   779
+  ],
+  "size": [
+   1280,
+   853
+  ]
+ },
+ "29": {
+  "file": "Lavarropa 24 litros.JPG",
+  "code": "TAOR1241159",
+  "box": [
+   57,
+   713,
+   401,
+   780
+  ],
+  "tight": [
+   75,
+   728,
+   380,
+   763
+  ],
+  "size": [
+   1280,
+   853
+  ]
+ },
+ "30": {
+  "file": "Pala Mango y burlete.JPG",
+  "code": "SUAS040068",
+  "box": [
+   27,
+   880,
+   352,
+   950
+  ],
+  "tight": [
+   43,
+   896,
+   329,
+   931
+  ],
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "31": {
+  "file": "Papelero Tatay 6 litros Vaiven.JPG",
+  "code": "TABA225882",
+  "box": [
+   351,
+   450,
+   490,
+   481
+  ],
+  "tight": [
+   358,
+   456,
+   480,
+   472
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "32": {
+  "file": "Papelero Tatay Blanco.JPG",
+  "code": "TAAS1228500",
+  "box": [
+   340,
+   462,
+   490,
+   490
+  ],
+  "tight": [
+   347,
+   468,
+   480,
+   484
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "33": {
+  "file": "Papelero Tatay EcoHome.JPG",
+  "code": "TAAS1241192",
+  "box": [
+   345,
+   454,
+   490,
+   485
+  ],
+  "tight": [
+   353,
+   460,
+   486,
+   476
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "34": {
+  "file": "Papelero Tatay Stell.JPG",
+  "code": "TAAS1228128",
+  "box": [
+   347,
+   452,
+   490,
+   482
+  ],
+  "tight": [
+   355,
+   459,
+   480,
+   473
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "35": {
+  "file": "Papelero Tatay Vintage.JPG",
+  "code": "TAAS1228531",
+  "box": [
+   345,
+   456,
+   490,
+   487
+  ],
+  "tight": [
+   352,
+   462,
+   482,
+   478
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "36": {
+  "file": "Parrilla Giratoria.JPG",
+  "code": "SIJA876922",
+  "box": [
+   491,
+   863,
+   747,
+   918
+  ],
+  "tight": [
+   503,
+   874,
+   730,
+   906
+  ],
+  "size": [
+   800,
+   979
+  ]
+ },
+ "37": {
+  "file": "Pistola 2P Premium.JPG",
+  "code": "TAJA201459",
+  "box": [
+   322,
+   426,
+   455,
+   457
+  ],
+  "tight": [
+   329,
+   432,
+   445,
+   448
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "38": {
+  "file": "Portaembutidos Fresh.JPG",
+  "code": "TAME1244696",
+  "box": [
+   22,
+   1428,
+   515,
+   1518
+  ],
+  "tight": [
+   39,
+   1446,
+   515,
+   1496
+  ],
+  "size": [
+   1600,
+   1600
+  ]
+ },
+ "39": {
+  "file": "Portafruta 0.2.JPG",
+  "code": "TAME218280",
+  "box": [
+   313,
+   420,
+   456,
+   451
+  ],
+  "tight": [
+   320,
+   426,
+   446,
+   442
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "40": {
+  "file": "Portafruta 0.5.JPG",
+  "code": "TAME220108",
+  "box": [
+   313,
+   420,
+   456,
+   451
+  ],
+  "tight": [
+   320,
+   426,
+   446,
+   442
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "41": {
+  "file": "Racor Hembra Grifo 1 pulg.JPG",
+  "code": "TAJA000519",
+  "box": [
+   346,
+   443,
+   479,
+   474
+  ],
+  "tight": [
+   353,
+   449,
+   469,
+   465
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "42": {
+  "file": "Racor hembra 4 posiciones.JPG",
+  "code": "TAJA002216",
+  "box": [
+   338,
+   443,
+   471,
+   474
+  ],
+  "tight": [
+   345,
+   449,
+   461,
+   465
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "43": {
+  "file": "Reparador de Manguera 1 2.JPG",
+  "code": "TAJA001219",
+  "box": [
+   340,
+   442,
+   473,
+   473
+  ],
+  "tight": [
+   347,
+   448,
+   463,
+   464
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "44": {
+  "file": "Repradaor Manguera 3 4  19mm.JPG",
+  "code": "TAJA001318",
+  "box": [
+   347,
+   444,
+   480,
+   475
+  ],
+  "tight": [
+   354,
+   450,
+   470,
+   466
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "45": {
+  "file": "Set Ba\u00f1o Tatay Boabab 4 Piezas.JPG",
+  "code": "TABA233078",
+  "box": [
+   341,
+   434,
+   480,
+   465
+  ],
+  "tight": [
+   348,
+   440,
+   470,
+   456
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "46": {
+  "file": "Tabla Planchar Anat\u00f3mica.JPG",
+  "code": "MBDE7820",
+  "box": [
+   744,
+   927,
+   1001,
+   984
+  ],
+  "tight": [
+   760,
+   939,
+   983,
+   971
+  ],
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "47": {
+  "file": "Tabla Planchar Portatil Mesa.JPG",
+  "code": "MAAS387844",
+  "box": [
+   669,
+   888,
+   971,
+   946
+  ],
+  "tight": [
+   685,
+   901,
+   955,
+   933
+  ],
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "48": {
+  "file": "Tabla Planchar Slim.JPG",
+  "code": "MAAS387?",
+  "box": [
+   793,
+   905,
+   1019,
+   966
+  ],
+  "tight": [
+   808,
+   920,
+   1001,
+   952
+  ],
+  "size": [
+   1024,
+   1024
+  ]
+ },
+ "49": {
+  "file": "Tendedero Retrac 1 mod negro.JPG",
+  "code": "MBDE2855",
+  "box": [
+   206,
+   263,
+   286,
+   285
+  ],
+  "tight": [
+   211,
+   269,
+   279,
+   279
+  ],
+  "size": [
+   300,
+   300
+  ]
+ }
+}
