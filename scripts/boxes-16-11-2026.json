@@ -1,0 +1,1062 @@
+{
+ "0": {
+  "file": "Balde Flexible Mezcla Adhesivo Cer\u00e1mico.JPG",
+  "code": "SUAS782825",
+  "box": [
+   292,
+   396,
+   426,
+   424
+  ],
+  "tight": [
+   299,
+   402,
+   417,
+   416
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "1": {
+  "file": "Balde con Asa 12 lt.JPG",
+  "code": "TAOR1241156",
+  "box": [
+   208,
+   291,
+   291,
+   309
+  ],
+  "tight": [
+   213,
+   295,
+   286,
+   304
+  ],
+  "size": [
+   300,
+   315
+  ]
+ },
+ "2": {
+  "file": "Balde con asa 17 lt.JPG",
+  "code": "SUAS2216930",
+  "box": [
+   1,
+   220,
+   76,
+   237
+  ],
+  "tight": [
+   5,
+   223,
+   76,
+   232
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "3": {
+  "file": "Basurero  Vaiv\u00e9n Gris 30 lt.JPG",
+  "code": "SUAS150421",
+  "box": [
+   152,
+   273,
+   237,
+   292
+  ],
+  "tight": [
+   157,
+   277,
+   229,
+   287
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "4": {
+  "file": "Basurero Pedal Gris 34 lt.JPG",
+  "code": "SUAS1590537",
+  "box": [
+   145,
+   276,
+   238,
+   295
+  ],
+  "tight": [
+   150,
+   281,
+   231,
+   290
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "5": {
+  "file": "Basurero Tapa Antiderrame 40 lt.JPG",
+  "code": "SGAS361317",
+  "box": [
+   152,
+   269,
+   237,
+   288
+  ],
+  "tight": [
+   157,
+   273,
+   231,
+   282
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "6": {
+  "file": "Basurero Tapa Antiderrame 65 lt.JPG",
+  "code": "SGASBACHER65",
+  "box": [
+   3,
+   223,
+   69,
+   237
+  ],
+  "tight": [
+   6,
+   223,
+   69,
+   232
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "7": {
+  "file": "Basurero Vaiven 30 lt eco amarillo.JPG",
+  "code": "5321077AMA",
+  "box": [
+   360,
+   498,
+   511,
+   529
+  ],
+  "tight": [
+   367,
+   505,
+   503,
+   521
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "8": {
+  "file": "Basurero Vaiven 30 lt eco azul.JPG",
+  "code": "531077AZ",
+  "box": [
+   208,
+   261,
+   281,
+   280
+  ],
+  "tight": [
+   213,
+   265,
+   275,
+   275
+  ],
+  "size": [
+   300,
+   300
+  ]
+ },
+ "9": {
+  "file": "Basurero Vaiven 30 lt eco verde.JPG",
+  "code": "5321077VER",
+  "box": [
+   370,
+   494,
+   523,
+   526
+  ],
+  "tight": [
+   377,
+   501,
+   514,
+   518
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "10": {
+  "file": "Basurero Vaiven 60 lt eco amarillo.JPG",
+  "code": "BAS2281139",
+  "box": [
+   357,
+   488,
+   509,
+   520
+  ],
+  "tight": [
+   365,
+   495,
+   501,
+   512
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "11": {
+  "file": "Basurero Vaiven 60 lt eco azul.JPG",
+  "code": "BAS2281163",
+  "box": [
+   201,
+   269,
+   291,
+   288
+  ],
+  "tight": [
+   206,
+   273,
+   285,
+   284
+  ],
+  "size": [
+   300,
+   300
+  ]
+ },
+ "12": {
+  "file": "Basurero Vaiven 60 lt eco verde.JPG",
+  "code": "BAS2281147",
+  "box": [
+   364,
+   488,
+   516,
+   519
+  ],
+  "tight": [
+   372,
+   494,
+   507,
+   511
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "13": {
+  "file": "Basurero Vaiven Gris 60 lt.JPG",
+  "code": "SUAS2216914",
+  "box": [
+   176,
+   218,
+   240,
+   233
+  ],
+  "tight": [
+   180,
+   223,
+   237,
+   229
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "14": {
+  "file": "Basurero Vaiven Gris 90 lt.JPG",
+  "code": "SUAS01621",
+  "box": [
+   180,
+   217,
+   236,
+   232
+  ],
+  "tight": [
+   184,
+   221,
+   230,
+   228
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "15": {
+  "file": "Basurero con Tapa 20 lt.JPG",
+  "code": "SUAS20LR",
+  "box": [
+   390,
+   501,
+   519,
+   533
+  ],
+  "tight": [
+   397,
+   508,
+   510,
+   525
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "16": {
+  "file": "Ba\u00fal 100 lt rojo ama.JPG",
+  "code": "SUOR1517996",
+  "box": [
+   135,
+   267,
+   229,
+   285
+  ],
+  "tight": [
+   139,
+   271,
+   223,
+   280
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "17": {
+  "file": "Ba\u00fal Herramientas 73 lt.JPG",
+  "code": "SUOR73AMANEG",
+  "box": [
+   333,
+   496,
+   554,
+   528
+  ],
+  "tight": [
+   340,
+   503,
+   530,
+   520
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "18": {
+  "file": "Ba\u00fal con Tapa 72 lt rojo ama.JPG",
+  "code": "SUOR139349",
+  "box": [
+   26,
+   395,
+   197,
+   432
+  ],
+  "tight": [
+   35,
+   405,
+   187,
+   423
+  ],
+  "size": [
+   680,
+   451
+  ]
+ },
+ "19": {
+  "file": "Ba\u00fal con Tapa 72 lt.JPG",
+  "code": "SUOR1233836",
+  "box": [
+   136,
+   193,
+   212,
+   210
+  ],
+  "tight": [
+   140,
+   197,
+   206,
+   205
+  ],
+  "size": [
+   225,
+   225
+  ]
+ },
+ "20": {
+  "file": "Bid\u00f3n 20 lt Certificado Gasolina.JPG",
+  "code": "TAOR1241165",
+  "box": [
+   150,
+   215,
+   224,
+   232
+  ],
+  "tight": [
+   153,
+   220,
+   218,
+   227
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "21": {
+  "file": "Bid\u00f3n 20 lt Certificado Kerosene.JPG",
+  "code": "TAOR1241172",
+  "box": [
+   2,
+   216,
+   76,
+   233
+  ],
+  "tight": [
+   6,
+   216,
+   76,
+   228
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "22": {
+  "file": "Bid\u00f3n 20 lt Certificado Petr\u00f3leo.JPG",
+  "code": "TAOR1241184",
+  "box": [
+   147,
+   212,
+   222,
+   229
+  ],
+  "tight": [
+   151,
+   216,
+   216,
+   224
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "23": {
+  "file": "Bid\u00f3n Dom\u00e9stico 10 lt.JPG",
+  "code": "TAOR1241170",
+  "box": [
+   175,
+   227,
+   240,
+   240
+  ],
+  "tight": [
+   179,
+   231,
+   236,
+   237
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "24": {
+  "file": "Bid\u00f3n Dom\u00e9stico 20 lt.JPG",
+  "code": "TAOR1241169",
+  "box": [
+   170,
+   226,
+   237,
+   240
+  ],
+  "tight": [
+   170,
+   226,
+   231,
+   237
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "25": {
+  "file": "Boquilla Conectora 16-22 media.JPG",
+  "code": "TAJA050118",
+  "box": [
+   335,
+   419,
+   466,
+   449
+  ],
+  "tight": [
+   341,
+   425,
+   457,
+   441
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "26": {
+  "file": "Boquilla Conectora 19-26 tres cuartos.JPG",
+  "code": "TAJA050217",
+  "box": [
+   337,
+   438,
+   468,
+   468
+  ],
+  "tight": [
+   343,
+   444,
+   459,
+   460
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "27": {
+  "file": "Boquilla Premium.JPG",
+  "code": "TAJA201442",
+  "box": [
+   335,
+   419,
+   466,
+   449
+  ],
+  "tight": [
+   341,
+   425,
+   457,
+   441
+  ],
+  "size": [
+   490,
+   490
+  ]
+ },
+ "28": {
+  "file": "Caja Rat\u00e1n 24 lt.JPG",
+  "code": "SUORATAN24C",
+  "box": [
+   132,
+   267,
+   231,
+   286
+  ],
+  "tight": [
+   137,
+   272,
+   225,
+   281
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "29": {
+  "file": "Caja Rat\u00e1n 50 lt.JPG",
+  "code": "SUORATAN50R",
+  "box": [
+   132,
+   267,
+   230,
+   286
+  ],
+  "tight": [
+   137,
+   272,
+   224,
+   281
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "30": {
+  "file": "Cesto Cadera.JPG",
+  "code": "SUAS2317230",
+  "box": [
+   156,
+   219,
+   230,
+   235
+  ],
+  "tight": [
+   159,
+   223,
+   224,
+   230
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "31": {
+  "file": "Cesto Ropa 50 lt.JPG",
+  "code": "TAOR1241182",
+  "box": [
+   139,
+   273,
+   230,
+   292
+  ],
+  "tight": [
+   143,
+   278,
+   225,
+   287
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "32": {
+  "file": "Cesto Ropa Con Tapa Acanalado 50 lt.JPG",
+  "code": "SUAS2317249",
+  "box": [
+   8,
+   405,
+   152,
+   434
+  ],
+  "tight": [
+   16,
+   412,
+   145,
+   427
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "33": {
+  "file": "Kit Grifo Tatay.JPG",
+  "code": "TAJA007310",
+  "box": [
+   307,
+   406,
+   431,
+   435
+  ],
+  "tight": [
+   313,
+   413,
+   422,
+   428
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "34": {
+  "file": "Kit Pistola Tatay .JPG",
+  "code": "TAJA007617",
+  "box": [
+   304,
+   410,
+   428,
+   439
+  ],
+  "tight": [
+   310,
+   417,
+   419,
+   431
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "35": {
+  "file": "Macetero Siena Arena 30 cm.JPG",
+  "code": "SODJA 2877457",
+  "box": [
+   2,
+   160,
+   64,
+   173
+  ],
+  "tight": [
+   5,
+   163,
+   59,
+   168
+  ],
+  "size": [
+   175,
+   175
+  ]
+ },
+ "36": {
+  "file": "Macetero Siena Arena 40 cm.JPG",
+  "code": "SODJA 2877481",
+  "box": [
+   2,
+   159,
+   64,
+   172
+  ],
+  "tight": [
+   5,
+   163,
+   58,
+   168
+  ],
+  "size": [
+   175,
+   175
+  ]
+ },
+ "37": {
+  "file": "Macetero Siena Taupe 14 cm.JPG",
+  "code": "SODJA041225",
+  "box": [
+   360,
+   502,
+   527,
+   534
+  ],
+  "tight": [
+   367,
+   508,
+   519,
+   525
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "38": {
+  "file": "Macetero Siena Taupe 20 cm.JPG",
+  "code": "SODJA584416",
+  "box": [
+   360,
+   502,
+   527,
+   534
+  ],
+  "tight": [
+   367,
+   508,
+   519,
+   525
+  ],
+  "size": [
+   554,
+   554
+  ]
+ },
+ "39": {
+  "file": "Macetero Siena Taupe 30 cm.JPG",
+  "code": "SODJA2877473",
+  "box": [
+   4,
+   216,
+   83,
+   233
+  ],
+  "tight": [
+   8,
+   221,
+   78,
+   228
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "40": {
+  "file": "Macetero Siena Taupe 40 cm.JPG",
+  "code": "SODJA2877503",
+  "box": [
+   4,
+   216,
+   83,
+   233
+  ],
+  "tight": [
+   8,
+   221,
+   78,
+   228
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "41": {
+  "file": "Pala Con Mango Color.JPG",
+  "code": "SUAS2002868",
+  "box": [
+   163,
+   209,
+   237,
+   226
+  ],
+  "tight": [
+   167,
+   213,
+   232,
+   221
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "42": {
+  "file": "Pala Mango una pieza.JPG",
+  "code": "PUAS856116",
+  "box": [
+   8,
+   404,
+   139,
+   434
+  ],
+  "tight": [
+   15,
+   411,
+   131,
+   426
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "43": {
+  "file": "Palangana 10 lt.JPG",
+  "code": "SUASTORO",
+  "box": [
+   163,
+   215,
+   224,
+   232
+  ],
+  "tight": [
+   166,
+   220,
+   218,
+   227
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "44": {
+  "file": "Palangana 17 lt.JPG",
+  "code": "TAOR1241167",
+  "box": [
+   163,
+   215,
+   237,
+   232
+  ],
+  "tight": [
+   166,
+   220,
+   231,
+   227
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "45": {
+  "file": "Palangana 28 lt.JPG",
+  "code": "SUME1572717",
+  "box": [
+   160,
+   215,
+   236,
+   232
+  ],
+  "tight": [
+   164,
+   220,
+   231,
+   227
+  ],
+  "size": [
+   240,
+   240
+  ]
+ },
+ "46": {
+  "file": "Papelero Vaiven Gris 07 lt.JPG",
+  "code": "SUAS07LTV",
+  "box": [
+   161,
+   276,
+   237,
+   295
+  ],
+  "tight": [
+   165,
+   280,
+   232,
+   290
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "47": {
+  "file": "Papelero Vaiven Gris 15 llt.JPG",
+  "code": "SUAS2216922",
+  "box": [
+   145,
+   276,
+   236,
+   295
+  ],
+  "tight": [
+   150,
+   280,
+   231,
+   290
+  ],
+  "size": [
+   240,
+   300
+  ]
+ },
+ "48": {
+  "file": "Parrila con Tapa Desmontable.JPG",
+  "code": "SIJA876915",
+  "box": [
+   18,
+   189,
+   80,
+   205
+  ],
+  "tight": [
+   22,
+   193,
+   74,
+   200
+  ],
+  "size": [
+   225,
+   225
+  ]
+ },
+ "49": {
+  "file": "Parrilla Argentina Peque\u00f1a.JPG",
+  "code": "SIJA810803",
+  "box": [
+   75,
+   275,
+   136,
+   291
+  ],
+  "tight": [
+   79,
+   279,
+   131,
+   286
+  ],
+  "size": [
+   171,
+   295
+  ]
+ },
+ "50": {
+  "file": "Pulverizador 1 lt.JPG",
+  "code": "1002026",
+  "box": [
+   186,
+   176,
+   234,
+   193
+  ],
+  "tight": [
+   190,
+   180,
+   228,
+   188
+  ],
+  "size": [
+   251,
+   201
+  ]
+ },
+ "51": {
+  "file": "Regadera 2.5  litros.JPG",
+  "code": "TAOR1241162",
+  "box": [
+   272,
+   388,
+   416,
+   417
+  ],
+  "tight": [
+   278,
+   395,
+   407,
+   409
+  ],
+  "size": [
+   447,
+   447
+  ]
+ },
+ "52": {
+  "file": "Regadera 6 litros.JPG",
+  "code": "TAOR1241163",
+  "box": [
+   158,
+   207,
+   233,
+   225
+  ],
+  "tight": [
+   162,
+   212,
+   227,
+   219
+  ],
+  "size": [
+   240,
+   240
+  ]
+ }
+}
