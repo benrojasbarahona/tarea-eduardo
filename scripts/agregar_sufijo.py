@@ -162,9 +162,18 @@ def composite(a, alpha, x, y, color):
     a[ya:yb, xa:xb] = a[ya:yb, xa:xb] * (1 - al) + color * al
 
 
+def fix_label(i, im):
+    """Kit Pistola (26) dice 'Cóg.' por error: se reemplaza por 'Cód.' copiado de la imagen
+    gemela 27 (misma tipografía, tamaño y disposición; desplazamiento +6, -1 px)."""
+    if i == 26:
+        src = load(BOXES[27]['file'])
+        im.paste(src.crop((348, 428, 404, 455)), (354, 427))
+    return im
+
+
 def process(i):
     v = BOXES[i]; f = v['file']; code = v['code']; tb = v['tight']
-    im = load(f); a = np.asarray(im).astype(float); h, w = a.shape[:2]
+    im = fix_label(i, load(f)); a = np.asarray(im).astype(float); h, w = a.shape[:2]
     info = analyse(a, tb, code)
     capH = tb[3] - tb[1]
     fontpath = FONT.get(i, SANS)
